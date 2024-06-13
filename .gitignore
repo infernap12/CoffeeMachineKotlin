@@ -15,7 +15,7 @@ Topics
 .idea
 
 # old stages
-/Coffee Machine (Kotlin)/
-!/Coffee Machine (Kotlin)/task/
-/Coffee Machine (Kotlin)/task/*
-!/Coffee Machine (Kotlin)/task/src
+#/Coffee Machine (Kotlin)/
+#!/Coffee Machine (Kotlin)/task/
+#/Coffee Machine (Kotlin)/task/*
+#!/Coffee Machine (Kotlin)/task/src
