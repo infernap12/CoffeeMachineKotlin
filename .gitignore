@@ -1,8 +1,3 @@
-# course config files
-*/course-info.yaml
-*/course-remote-info.yaml
-*/lesson-info.yaml
-*/task-info.yaml
 
 # gradle
 .gradle/
@@ -15,7 +10,13 @@ Topics
 .idea
 
 # old stages
-#/Coffee Machine (Kotlin)/
-#!/Coffee Machine (Kotlin)/task/
-#/Coffee Machine (Kotlin)/task/*
-#!/Coffee Machine (Kotlin)/task/src
+/Coffee Machine (Kotlin)/
+!/Coffee Machine (Kotlin)/task/
+/Coffee Machine (Kotlin)/task/*
+!/Coffee Machine (Kotlin)/task/src/*
+
+# course config files
+/course-info.yaml
+/course-remote-info.yaml
+*/lesson-info.yaml
+*/task-info.yaml
