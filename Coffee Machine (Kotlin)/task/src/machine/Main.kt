@@ -1,10 +1,10 @@
 package machine
 
 fun main() {
+    var vendingMachine = VendingMachine()
     while (true) {
-        getAction().operation()
-        println()
-
+        val userInput = readln()
+        vendingMachine.accept(userInput)
     }
 }
 
