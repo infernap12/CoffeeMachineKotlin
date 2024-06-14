@@ -29,8 +29,6 @@ data class BeverageSystem(
         money += drink.cost
     }
 
-    // return a list of insufficient ingredients for a given drink,
-    // an empty list would indicate that it is possible to dispense that drink
     fun checkIngredients(drink: Drink): List<String> {
         val pairs = listOf<Pair<String, Int>>(
             Pair("water", water - drink.water),

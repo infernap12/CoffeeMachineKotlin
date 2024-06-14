@@ -11,7 +11,6 @@ class VendingMachine {
         enterIdle()
     }
 
-    // pass input to each menu method, refactor back to action //if we're in MAIN all we do is set our state to the relevant menu and wait agian i think
     fun accept(userInput: String) {
         state = when (state) {
             State.Idle -> handleIdle(userInput)
